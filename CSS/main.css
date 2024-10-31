@@ -1,0 +1,13 @@
+
+
+main#webcam_ctn{
+    display: grid;
+    grid-template-columns: 640px auto;
+    grid-gap: 15px;
+}
+
+canvas#video-output{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
